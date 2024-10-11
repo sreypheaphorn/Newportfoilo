@@ -171,7 +171,7 @@ const About: React.FC = () => {
                 </div>
 
                 {/* Animated Text Section */}
-                <span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600 text-4xl mb-4 flex justify-center">
+                <span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600 text-4xl  flex justify-center">
                     About Me<br /> <br />
                 </span>
 

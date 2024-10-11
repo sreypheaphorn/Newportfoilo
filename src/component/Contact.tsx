@@ -142,8 +142,10 @@ const Contact: React.FC = () => {
         {/* Left Section - Connect with me */}
         <div className="flex flex-col items-center md:items-start">
           <h2 className="text-4xl font-bold text-purple-400 mb-4">Connect with me:</h2>
-          <p className="text-lg text-gray-400 mb-6">If you're interested in working together, feel free to reach out!</p>
-          <div className="flex space-x-4 text-purple-500 text-4xl">
+          <p>Phone Number: 0713583551</p>
+          <p>Facebook Page : Phorn Sreyphea</p>
+          <p className="text-lg text-gray-00 mb-6">If you're interested in working together, feel free to reach out!</p>
+          <div className="flex space-x-4 text-gray-200 text-4xl">
             <FaFacebook className="w-6 h-6 cursor-pointer" />
             <FaInstagram className="w-6 h-6 cursor-pointer" />
             <FaTelegram className="w-6 h-6 cursor-pointer" />

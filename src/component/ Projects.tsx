@@ -130,16 +130,21 @@ const Projects: React.FC = () => {
     return (
         <section className="bg-black text-white py-20">
             <div className="max-w-7xl mx-auto px-6 text-center">
-                <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-700 text-4xl mb-4">
+                {/* <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-pink-700 text-4xl mb-4">
                     Projects:
-                </h2>
+                </h2> */}
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600 text-4xl  flex justify-center">
+                    Projects<br /><br />
+                </span>
+
+
                 <TypeAnimation
                     sequence={[
                         'This is My Projects',
                         1000,
-                        'Fullstack developer',
+                        'I use learned tools',
                         1000,
-                        'UI & UX Designer',
+                        'A bout the Web site',
                         1000,
                     ]}
                     wrapper="span"

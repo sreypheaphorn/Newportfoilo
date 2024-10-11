@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-gray-400 py-8">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center space-y-4">
-        <div className="flex space-x-4 text-purple-500 text-2xl ">
+        <div className="flex space-x-4 text-gray-400 text-2xl ">
           <FaFacebook className="w-6 h-6 cursor-pointer" />
           <FaInstagram className="w-6 h-6 cursor-pointer" />
           <FaTelegram className="w-6 h-6 cursor-pointer" />
