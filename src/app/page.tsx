@@ -2,15 +2,15 @@ import Head from "next/head";
 import Header from "../component/Header";
 import About from "../component/About";
 import Projects from "../component/ Projects";
-// import Contact from "@/component/Contact";
-// import App from "../component/App";
+import Contact from "@/component/Contact";
+import App from "../component/App";
+import Footer from "@/component/Footer";
 
 import "./style.css"
 const Home =()=>{
     return(
-        <>
-         {/* <App/> */}
-        <div id="particles-js">
+        <div>
+         <App/>
         <div>
             <Head>
                 <title className="text-blue-500">Phorn Sreyphea | Portfoilo</title>
@@ -19,10 +19,10 @@ const Home =()=>{
             <Header/>
             <About/>
             <Projects/>
-            {/* <Contact/> */}
+            <Contact/>
+            <Footer/>
         </div>
         </div>
-        </>
     );
 };
 export default Home;
