@@ -194,7 +194,6 @@ export const Skill = () => {
           </div>
         </div>
       </div>
-
       <div className="flex justify-center mt-[200px]">
         <div className="w-[70%] border-b-4 border-transparent bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-[length:100%_4px] bg-bottom"></div>
       </div>
