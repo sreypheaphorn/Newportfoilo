@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
   }
 
   return (
-    <section className="bg-black text-white py-20">
+    <section id="contact" className="bg-black text-white py-20">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10">
 
         {/* Left Section - Connect with me */}
@@ -202,7 +202,7 @@ const Contact: React.FC = () => {
               Send Message
             </button>
           </form>
-        </div>
+        </div>    
       </div>
     </section>
   );

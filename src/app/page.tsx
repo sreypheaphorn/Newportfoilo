@@ -5,8 +5,10 @@ import Projects from "../component/ Projects";
 import Contact from "@/component/Contact";
 import App from "../component/App";
 import Footer from "@/component/Footer";
+// import skill from "@/component/skill";
 
 import "./style.css"
+
 const Home =()=>{
     return(
         <div>
@@ -15,10 +17,10 @@ const Home =()=>{
             <Head>
                 <title className="text-blue-500">Phorn Sreyphea | Portfoilo</title>
             </Head>
-
             <Header/>
             <About/>
             <Projects/>
+            {/* <skill/> */}
             <Contact/>
             <Footer/>
         </div>
