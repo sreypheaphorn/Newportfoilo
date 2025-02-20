@@ -154,12 +154,12 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Right Section - Contact Form */}
-        <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+        <div className="bg-gray-800 p-8 rounded-lg shadow-lg z-10">
           <h2 className="text-3xl font-bold text-white mb-6">Let’s make magic together</h2>
           
           {/* Form */}
           <form onSubmit={handleSubmit}>
-            <div className="mb-6">
+            <div className="mb-6 ">
               <label htmlFor="name" className="block text-gray-400 mb-2">Name:</label>
               <input
                 type="text"

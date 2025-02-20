@@ -3,16 +3,15 @@ import Header from "../component/Header";
 import About from "../component/About";
 import Projects from "../component/ Projects";
 import Contact from "@/component/Contact";
-import App from "../component/App";
+// import App from "../component/App";
 import Footer from "@/component/Footer";
-// import skill from "@/component/skill";
+import Skill from "../component/Skill";
 
 import "./style.css"
 
 const Home =()=>{
     return(
-        <div>
-         <App/>
+        // <div>
         <div>
             <Head>
                 <title className="text-blue-500">Phorn Sreyphea | Portfoilo</title>
@@ -20,11 +19,11 @@ const Home =()=>{
             <Header/>
             <About/>
             <Projects/>
-            {/* <skill/> */}
+            <Skill/>
             <Contact/>
             <Footer/>
         </div>
-        </div>
+        // </div>
     );
 };
 export default Home;

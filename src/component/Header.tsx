@@ -7,10 +7,12 @@ const Header: React.FC =()=>{
         home: "/",
         about: "#about",
         project: "#project",
+        skill:"#skill",
         contact: "#contact",
+        
       };
     return(
-        <header className="bg-purple-900 p-6 sticky top-0">
+        <header className="z-20 bg-purple-900 p-6 sticky top-0">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
                 <h1 className="text-yellow-50 text-2xl font-bold hover:text-pink-600">Portfoilo</h1>
                 <nav>
@@ -24,9 +26,9 @@ const Header: React.FC =()=>{
         <li className="hover:text-pink-400">
           <Link href={navLinks.project}>Project</Link>
         </li>
-        {/* <li className="hover:text-pink-400">
+        <li className="hover:text-pink-400">
           <Link href={navLinks.skill}>Skill</Link>
-        </li> */}
+        </li>
         <li className="hover:text-pink-400">
           <Link href={navLinks.contact}>Contact</Link>
         </li>

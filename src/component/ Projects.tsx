@@ -1,6 +1,5 @@
-'use client';
+'use client'
 import React from "react";
-
 const Projects: React.FC = () => {
     const projects = [
        
@@ -58,7 +57,7 @@ const Projects: React.FC = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
                     {projects.map((project, index) => (
-                        <div key={index} className="bg-gray-800 rounded-lg p-6 shadow-lg">
+                        <div key={index} className="z-10 bg-gray-800 rounded-lg p-6 shadow-lg">
                             <div className="flex justify-center mb-4">
                                 <img
                                     src={project.image}

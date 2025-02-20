@@ -134,7 +134,7 @@ const About: React.FC = () => {
     }, []);
 
     return (
-        <section id="about" className="bg-black text-yellow-50 flex justify-center">
+        <section id="about" className="bg-black text-yellow-50 flex justify-center ">
             <div className="w-[70%] flex flex-col justify-between items-center px-6 pt-12">
                 {/* Text Section */}
                 <div className="w-[100%] flex justify-between items-center px-6 pt-12">
@@ -165,7 +165,7 @@ const About: React.FC = () => {
                             <button className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-700 text-white px-7 py-3 rounded-full hover:from-secondary-600 hover:to-primary-400 transition-all">
                                 Hire Me
                             </button>
-                            <a href="https://docs.google.com/document/d/1FqVEdZR_82zgkvGlQ5KFI5VyA5HRuzZ5UidxxxOXQ7w/edit?tab=t.0" className="w-full lg:w-auto">
+                            <a href="/CV.pdf" className="w-full lg:w-auto">
 
                             <button className="text-white border border-white px-6 py-3 rounded-full hover:bg-pink-600 transition-all">
                                 Download CV
@@ -174,7 +174,7 @@ const About: React.FC = () => {
                     </div>
 
                     {/* Profile Picture Section */}
-                    <div className="mt-10 flex justify-center  ">
+                    <div className="z-10 mt-10 flex justify-center  ">
                         <img
                             src="phornsreyphea.jpg"
                             alt="Sreyphea Profile Picture"
@@ -208,7 +208,7 @@ const About: React.FC = () => {
                 {/* About Me Section */}
                
                 <section id="about" className="">
-                <div>
+                <div className="z-10">
                     {/* <h2 className="text-4xl font-bold text-white mb-4 flex justify-center mt-5">About Me</h2> */}
                     <p className="mb-10 text-center text-xl">
                         I’m 17 year old.I’m a full stack developer and designer.
