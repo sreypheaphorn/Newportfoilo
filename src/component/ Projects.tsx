@@ -5,47 +5,47 @@ const Projects: React.FC = () => {
     const projects = [
        
         {
-            Image: "",
-            name: "Calculator",
+            Image: "/weater.jpg",
+            name: "Weather",
             description: "Build calculator I spent time one day building this calculator and it got top.",
             tech: "HTML, Javascript, Tailwind CSS",
-            link: "https://hackthon-g7-tbtn.vercel.app/"
+            link: "https://pp-weather-azure.vercel.app/"
         },
        
         {
-            Image: "",
-            name: "E-commerce",
+            Image: "/menimalblok.jpg",
+            name: "Menimal Blog",
             description: "Developed the back-end of a Mart Management System to handle purchases, sales, inventory, stock alerts, expiration notifications, customer loyalty points, and user role management.",
             tech: "Discord, Notion, Postman, MySQL Workbench, Git & Github, NodeJs, Prisma ORM, Cloudinary for file media storage",
-            link: "https://laiheang.jetdev.life/login"
+            link: "https://minimal-blog-beryl.vercel.app/"
         },
         {
-            Image: "",
-            name: "Agro Admin",
+            Image: "/bicycle.jpg",
+            name: "Bicycle",
             description: "A web application for farmers to manage their crops, track weather, and receive notifications.",
             tech: "React, Strapi, Tailwind CSS",
-            link: "https://admin-agro-frondend.vercel.app/"
+            link: "https://limsopheak16.github.io/Selling-Bicycle/"
         },
         {
-            Image: "",
-            name: "Agro Market",
-            description: "A web application for farmers to sell their products, manage orders, and track sales.",
+            Image: "/library.jpg",
+            name: "Library",
+            description: "A web application for control a book in library that student borrow ",
             tech: "Javascript, HTML, Strapi, Tailwind CSS",
             link: "https://agro-market-mauve.vercel.app/"
         },
         {
-            Image: "",
+            Image: "/fairytail.jpg",
             name: "Fairy Tale",
             description: "A web application for users to read and share fairy tales.",
             tech: "Javascript, Bootstrap, HTML, CSS",
             link: "https://fairy-tale-xi.vercel.app/index.html"
         },
         {
-            Image: "",
+            Image: "/blog.png",
             name: "Blog Post",
             description: "A web application for users to read and share blog posts.",
             tech: "React Js, Tailwind CSS, Zustand",
-            link: "https://blog-post-laihieng.vercel.app/"
+            link: "https://blogpost-one-rho.vercel.app/"
         }
     ];
 

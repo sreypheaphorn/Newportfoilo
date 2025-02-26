@@ -85,6 +85,8 @@ const About: React.FC = () => {
                             alt="Phorn"
                             width={500}
                             height={500}
+                            className="rounded-full w-[350px] h-[350px] object-cover shadow-lg transition-all duration-700 group-hover:scale-110 group-hover:rotate-2 "
+
                         />
                     </div>
                 </div>
