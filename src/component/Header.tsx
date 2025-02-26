@@ -14,7 +14,7 @@ const Header: React.FC =()=>{
     return(
         <header className="z-20 bg-purple-900 p-6 sticky top-0">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <h1 className="text-yellow-50 text-2xl font-bold hover:text-pink-600">Portfoilo</h1>
+                <h1 className="text-yellow-50 text-2xl font-bold hover:text-pink-600">Portfolio</h1>
                 <nav>
       <ul className="flex space-x-[50px] text-white text-2xl">
         <li className="hover:text-pink-400">

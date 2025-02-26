@@ -179,7 +179,7 @@ const ParticlesBackground: React.FC = () => {
     });
   }, []);
 
-  const particlesLoaded = useCallback((container: Container | undefined) => {
+  const particlesLoaded = useCallback(async (container: Container | undefined) => {
     console.log("Particles Loaded:", container);
   }, []);
 
@@ -191,7 +191,7 @@ const ParticlesBackground: React.FC = () => {
         fullScreen: { enable: true },
         fpsLimit: 120,
         particles: {
-          number: { value: 80, density: { enable: true, area: 1000 } },
+          number: { value: 80, density: { enable: true } },
           shape: { type: "circle" },
           opacity: { value: 0.5 },
           size: { value: { min: 1, max: 5 } },
@@ -214,7 +214,7 @@ const ParticlesBackground: React.FC = () => {
           events: {
             onHover: { enable: true, mode: "repulse" },
             onClick: { enable: true, mode: "push" },
-            resize: true,
+            resize: {enable: true},
           },
           modes: {
             push: { quantity: 4 },
